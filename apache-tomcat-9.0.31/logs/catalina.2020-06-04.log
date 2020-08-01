@@ -1,0 +1,423 @@
+04-Jun-2020 11:37:30.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+04-Jun-2020 11:37:30.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+04-Jun-2020 11:37:30.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+04-Jun-2020 11:37:30.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Jun-2020 11:37:30.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Jun-2020 11:37:30.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Jun-2020 11:37:30.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+04-Jun-2020 11:37:30.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+04-Jun-2020 11:37:30.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Jun-2020 11:37:30.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\apache-tomcat-9.0.31
+04-Jun-2020 11:37:30.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\apache-tomcat-9.0.31
+04-Jun-2020 11:37:30.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\apache-tomcat-9.0.31\conf\logging.properties
+04-Jun-2020 11:37:30.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Jun-2020 11:37:30.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-0E1EC67
+04-Jun-2020 11:37:30.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Jun-2020 11:37:30.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Jun-2020 11:37:30.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Jun-2020 11:37:30.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\apache-tomcat-9.0.31
+04-Jun-2020 11:37:30.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\apache-tomcat-9.0.31
+04-Jun-2020 11:37:30.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\apache-tomcat-9.0.31\temp
+04-Jun-2020 11:37:30.448 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ntnhu\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\ntnhu\AppData\Local\Programs\Python\Python38-32\;C:\Users\ntnhu\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\bin;;C:\Program Files\JetBrains\PyCharm 2019.3.3\bin;;.]
+04-Jun-2020 11:37:31.503 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Jun-2020 11:37:31.872 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2,152] milliseconds
+04-Jun-2020 11:37:31.945 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Jun-2020 11:37:31.945 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+04-Jun-2020 11:37:31.974 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\qldt.xml]
+04-Jun-2020 11:37:32.027 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/qldt] in deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\qldt.xml] has been ignored
+04-Jun-2020 11:37:33.331 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 11:37:33.390 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\qldt.xml] has finished in [1,416] ms
+04-Jun-2020 11:37:33.390 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\ROOT.xml]
+04-Jun-2020 11:37:33.397 WARNING [main] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+04-Jun-2020 11:37:33.397 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\ROOT.xml] has been ignored
+04-Jun-2020 11:37:37.363 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 11:37:37.720 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\ROOT.xml] has finished in [4,330] ms
+04-Jun-2020 11:37:37.720 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-9.0.31\webapps\docs]
+04-Jun-2020 11:37:37.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-9.0.31\webapps\docs] has finished in [139] ms
+04-Jun-2020 11:37:37.860 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-9.0.31\webapps\examples]
+04-Jun-2020 11:37:39.554 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-9.0.31\webapps\examples] has finished in [1,694] ms
+04-Jun-2020 11:37:39.555 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-9.0.31\webapps\host-manager]
+04-Jun-2020 11:37:39.625 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-9.0.31\webapps\host-manager] has finished in [70] ms
+04-Jun-2020 11:37:39.625 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-9.0.31\webapps\manager]
+04-Jun-2020 11:37:39.688 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-9.0.31\webapps\manager] has finished in [63] ms
+04-Jun-2020 11:37:39.693 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Jun-2020 11:37:39.706 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7,833] milliseconds
+04-Jun-2020 11:37:44.376 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\WS.xml]
+04-Jun-2020 11:37:44.378 WARNING [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WS] in deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\WS.xml] has been ignored
+04-Jun-2020 11:37:47.100 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 11:37:47.122 INFO [http-nio-8080-exec-9] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+04-Jun-2020 11:37:52.188 INFO [http-nio-8080-exec-9] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 11:37:52.587 INFO [http-nio-8080-exec-9] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+04-Jun-2020 11:37:52.593 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\WS.xml] has finished in [8,218] ms
+04-Jun-2020 11:37:52.602 INFO [http-nio-8080-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WS]] after start() had already been called. The second call will be ignored.
+04-Jun-2020 11:44:11.826 SEVERE [http-nio-8080-exec-10] com.sun.xml.ws.transport.http.HttpAdapter$HttpToolkit.handle Unsupported Content-Type: application/xml Supported ones are: [text/xml]
+	com.sun.xml.ws.server.UnsupportedMediaException: Unsupported Content-Type: application/xml Supported ones are: [text/xml]
+		at com.sun.xml.ws.encoding.StreamSOAPCodec.decode(StreamSOAPCodec.java:295)
+		at com.sun.xml.ws.encoding.StreamSOAPCodec.decode(StreamSOAPCodec.java:129)
+		at com.sun.xml.ws.encoding.SOAPBindingCodec.decode(SOAPBindingCodec.java:354)
+		at com.sun.xml.ws.transport.http.HttpAdapter.decodePacket(HttpAdapter.java:318)
+		at com.sun.xml.ws.transport.http.HttpAdapter.access$500(HttpAdapter.java:92)
+		at com.sun.xml.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:501)
+		at com.sun.xml.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:285)
+		at com.sun.xml.ws.transport.http.servlet.ServletAdapter.handle(ServletAdapter.java:143)
+		at com.sun.xml.ws.transport.http.servlet.WSServletDelegate.doGet(WSServletDelegate.java:155)
+		at com.sun.xml.ws.transport.http.servlet.WSServletDelegate.doPost(WSServletDelegate.java:189)
+		at com.sun.xml.ws.transport.http.servlet.WSServlet.doPost(WSServlet.java:76)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+04-Jun-2020 11:56:48.853 SEVERE [http-nio-8080-exec-6] com.sun.xml.ws.transport.http.HttpAdapter$HttpToolkit.handle Unsupported Content-Type: application/xml Supported ones are: [text/xml]
+	com.sun.xml.ws.server.UnsupportedMediaException: Unsupported Content-Type: application/xml Supported ones are: [text/xml]
+		at com.sun.xml.ws.encoding.StreamSOAPCodec.decode(StreamSOAPCodec.java:295)
+		at com.sun.xml.ws.encoding.StreamSOAPCodec.decode(StreamSOAPCodec.java:129)
+		at com.sun.xml.ws.encoding.SOAPBindingCodec.decode(SOAPBindingCodec.java:354)
+		at com.sun.xml.ws.transport.http.HttpAdapter.decodePacket(HttpAdapter.java:318)
+		at com.sun.xml.ws.transport.http.HttpAdapter.access$500(HttpAdapter.java:92)
+		at com.sun.xml.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:501)
+		at com.sun.xml.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:285)
+		at com.sun.xml.ws.transport.http.servlet.ServletAdapter.handle(ServletAdapter.java:143)
+		at com.sun.xml.ws.transport.http.servlet.WSServletDelegate.doGet(WSServletDelegate.java:155)
+		at com.sun.xml.ws.transport.http.servlet.WSServletDelegate.doPost(WSServletDelegate.java:189)
+		at com.sun.xml.ws.transport.http.servlet.WSServlet.doPost(WSServlet.java:76)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+04-Jun-2020 11:57:00.167 SEVERE [http-nio-8080-exec-10] com.sun.xml.ws.transport.http.HttpAdapter$HttpToolkit.handle Unsupported Content-Type: application/xml Supported ones are: [text/xml]
+	com.sun.xml.ws.server.UnsupportedMediaException: Unsupported Content-Type: application/xml Supported ones are: [text/xml]
+		at com.sun.xml.ws.encoding.StreamSOAPCodec.decode(StreamSOAPCodec.java:295)
+		at com.sun.xml.ws.encoding.StreamSOAPCodec.decode(StreamSOAPCodec.java:129)
+		at com.sun.xml.ws.encoding.SOAPBindingCodec.decode(SOAPBindingCodec.java:354)
+		at com.sun.xml.ws.transport.http.HttpAdapter.decodePacket(HttpAdapter.java:318)
+		at com.sun.xml.ws.transport.http.HttpAdapter.access$500(HttpAdapter.java:92)
+		at com.sun.xml.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:501)
+		at com.sun.xml.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:285)
+		at com.sun.xml.ws.transport.http.servlet.ServletAdapter.handle(ServletAdapter.java:143)
+		at com.sun.xml.ws.transport.http.servlet.WSServletDelegate.doGet(WSServletDelegate.java:155)
+		at com.sun.xml.ws.transport.http.servlet.WSServletDelegate.doPost(WSServletDelegate.java:189)
+		at com.sun.xml.ws.transport.http.servlet.WSServlet.doPost(WSServlet.java:76)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+04-Jun-2020 11:58:13.159 SEVERE [http-nio-8080-exec-6] com.sun.xml.ws.transport.http.HttpAdapter$HttpToolkit.handle Unsupported Content-Type: application/xml Supported ones are: [text/xml]
+	com.sun.xml.ws.server.UnsupportedMediaException: Unsupported Content-Type: application/xml Supported ones are: [text/xml]
+		at com.sun.xml.ws.encoding.StreamSOAPCodec.decode(StreamSOAPCodec.java:295)
+		at com.sun.xml.ws.encoding.StreamSOAPCodec.decode(StreamSOAPCodec.java:129)
+		at com.sun.xml.ws.encoding.SOAPBindingCodec.decode(SOAPBindingCodec.java:354)
+		at com.sun.xml.ws.transport.http.HttpAdapter.decodePacket(HttpAdapter.java:318)
+		at com.sun.xml.ws.transport.http.HttpAdapter.access$500(HttpAdapter.java:92)
+		at com.sun.xml.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:501)
+		at com.sun.xml.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:285)
+		at com.sun.xml.ws.transport.http.servlet.ServletAdapter.handle(ServletAdapter.java:143)
+		at com.sun.xml.ws.transport.http.servlet.WSServletDelegate.doGet(WSServletDelegate.java:155)
+		at com.sun.xml.ws.transport.http.servlet.WSServletDelegate.doPost(WSServletDelegate.java:189)
+		at com.sun.xml.ws.transport.http.servlet.WSServlet.doPost(WSServlet.java:76)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+04-Jun-2020 12:03:32.990 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WS] has started
+04-Jun-2020 12:03:32.992 INFO [http-nio-8080-exec-9] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: JAX-WS servlet destroyed
+04-Jun-2020 12:03:32.996 INFO [http-nio-8080-exec-9] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 12:03:32.998 INFO [http-nio-8080-exec-9] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+04-Jun-2020 12:03:37.762 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 12:03:37.779 INFO [http-nio-8080-exec-9] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+04-Jun-2020 12:03:41.846 INFO [http-nio-8080-exec-9] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 12:03:42.633 INFO [http-nio-8080-exec-9] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+04-Jun-2020 12:03:42.646 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WS] is completed
+04-Jun-2020 12:03:43.569 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WS] has started
+04-Jun-2020 12:03:43.573 INFO [http-nio-8080-exec-3] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: JAX-WS servlet destroyed
+04-Jun-2020 12:03:43.574 INFO [http-nio-8080-exec-3] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 12:03:43.575 INFO [http-nio-8080-exec-3] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+04-Jun-2020 12:03:46.541 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 12:03:46.555 INFO [http-nio-8080-exec-3] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+04-Jun-2020 12:03:51.272 INFO [http-nio-8080-exec-3] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 12:03:51.635 INFO [http-nio-8080-exec-3] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+04-Jun-2020 12:03:51.639 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WS] is completed
+04-Jun-2020 12:06:20.531 INFO [http-nio-8080-exec-12] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: JAX-WS servlet destroyed
+04-Jun-2020 12:06:20.534 INFO [http-nio-8080-exec-12] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 12:06:20.541 INFO [http-nio-8080-exec-12] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+04-Jun-2020 12:06:23.946 INFO [http-nio-8080-exec-17] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 12:06:23.974 INFO [http-nio-8080-exec-17] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+04-Jun-2020 12:06:25.854 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/WS]
+04-Jun-2020 12:06:30.137 INFO [http-nio-8080-exec-17] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 12:06:31.412 INFO [http-nio-8080-exec-17] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 12:06:31.476 INFO [http-nio-8080-exec-17] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+04-Jun-2020 12:06:31.655 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WS] has started
+04-Jun-2020 12:06:31.661 INFO [http-nio-8080-exec-12] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: JAX-WS servlet destroyed
+04-Jun-2020 12:06:31.662 INFO [http-nio-8080-exec-12] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 12:06:31.664 INFO [http-nio-8080-exec-12] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 12:06:31.665 INFO [http-nio-8080-exec-12] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+04-Jun-2020 12:06:34.336 INFO [http-nio-8080-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 12:06:34.348 INFO [http-nio-8080-exec-12] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+04-Jun-2020 12:06:40.425 INFO [http-nio-8080-exec-12] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 12:06:41.304 INFO [http-nio-8080-exec-12] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 12:06:41.340 INFO [http-nio-8080-exec-12] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+04-Jun-2020 12:06:41.365 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WS] is completed
+04-Jun-2020 12:06:41.428 INFO [Catalina-utility-2] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WS]] after start() had already been called. The second call will be ignored.
+04-Jun-2020 12:06:41.899 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WS] has started
+04-Jun-2020 12:06:41.958 INFO [http-nio-8080-exec-14] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: JAX-WS servlet destroyed
+04-Jun-2020 12:06:41.960 INFO [http-nio-8080-exec-14] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 12:06:41.961 INFO [http-nio-8080-exec-14] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 12:06:41.962 INFO [http-nio-8080-exec-14] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+04-Jun-2020 12:06:47.028 INFO [http-nio-8080-exec-14] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 12:06:47.042 INFO [http-nio-8080-exec-14] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+04-Jun-2020 12:06:50.884 INFO [http-nio-8080-exec-14] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 12:06:51.364 INFO [http-nio-8080-exec-14] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 12:06:51.398 INFO [http-nio-8080-exec-14] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+04-Jun-2020 12:06:51.403 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WS] is completed
+04-Jun-2020 12:06:51.479 INFO [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WS] has started
+04-Jun-2020 12:06:51.483 INFO [http-nio-8080-exec-11] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: JAX-WS servlet destroyed
+04-Jun-2020 12:06:51.485 INFO [http-nio-8080-exec-11] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 12:06:51.486 INFO [http-nio-8080-exec-11] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 12:06:51.486 INFO [http-nio-8080-exec-11] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+04-Jun-2020 12:06:55.119 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 12:06:55.152 INFO [http-nio-8080-exec-11] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+04-Jun-2020 12:06:59.996 INFO [http-nio-8080-exec-11] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 12:07:01.546 INFO [http-nio-8080-exec-11] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 12:07:01.561 INFO [http-nio-8080-exec-11] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+04-Jun-2020 12:07:01.566 INFO [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WS] is completed
+04-Jun-2020 12:10:14.046 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+04-Jun-2020 12:10:14.047 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Jun-2020 12:10:14.339 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Jun-2020 12:10:14.353 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: JAX-WS servlet destroyed
+04-Jun-2020 12:10:14.354 INFO [main] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 12:10:14.355 INFO [main] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 12:10:14.356 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+04-Jun-2020 12:10:14.365 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Jun-2020 12:10:14.367 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\apache-tomcat-9.0.31
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\apache-tomcat-9.0.31
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\apache-tomcat-9.0.31\conf\logging.properties
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-0E1EC67
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\apache-tomcat-9.0.31
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\apache-tomcat-9.0.31
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\apache-tomcat-9.0.31\temp
+04-Jun-2020 13:39:12.221 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ntnhu\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\ntnhu\AppData\Local\Programs\Python\Python38-32\;C:\Users\ntnhu\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\bin;;C:\Program Files\JetBrains\PyCharm 2019.3.3\bin;;.]
+04-Jun-2020 13:39:13.112 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Jun-2020 13:39:13.534 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1,826] milliseconds
+04-Jun-2020 13:39:13.659 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Jun-2020 13:39:13.659 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+04-Jun-2020 13:39:13.705 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\qldt.xml]
+04-Jun-2020 13:39:13.815 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/qldt] in deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\qldt.xml] has been ignored
+04-Jun-2020 13:39:15.471 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 13:39:15.596 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\qldt.xml] has finished in [1,891] ms
+04-Jun-2020 13:39:15.596 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\ROOT.xml]
+04-Jun-2020 13:39:15.612 WARNING [main] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+04-Jun-2020 13:39:15.612 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\ROOT.xml] has been ignored
+04-Jun-2020 13:39:19.034 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 13:39:19.049 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\ROOT.xml] has finished in [3,453] ms
+04-Jun-2020 13:39:19.049 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\WS.xml]
+04-Jun-2020 13:39:19.065 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WS] in deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\WS.xml] has been ignored
+04-Jun-2020 13:39:22.502 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 13:39:22.518 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+04-Jun-2020 13:39:30.034 INFO [main] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 13:39:33.987 INFO [main] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 13:39:34.018 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+04-Jun-2020 13:39:34.018 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\WS.xml] has finished in [14,969] ms
+04-Jun-2020 13:39:34.018 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-9.0.31\webapps\docs]
+04-Jun-2020 13:39:34.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-9.0.31\webapps\docs] has finished in [94] ms
+04-Jun-2020 13:39:34.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-9.0.31\webapps\examples]
+04-Jun-2020 13:39:43.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-9.0.31\webapps\examples] has finished in [9,750] ms
+04-Jun-2020 13:39:43.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-9.0.31\webapps\host-manager]
+04-Jun-2020 13:39:43.987 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-9.0.31\webapps\host-manager] has finished in [125] ms
+04-Jun-2020 13:39:43.987 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-9.0.31\webapps\manager]
+04-Jun-2020 13:39:44.080 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-9.0.31\webapps\manager] has finished in [93] ms
+04-Jun-2020 13:39:44.080 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Jun-2020 13:39:44.143 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [30,610] milliseconds
+04-Jun-2020 13:39:47.846 INFO [http-nio-8080-exec-2] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: JAX-WS servlet destroyed
+04-Jun-2020 13:39:47.862 INFO [http-nio-8080-exec-2] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 13:39:47.862 INFO [http-nio-8080-exec-2] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 13:39:47.862 INFO [http-nio-8080-exec-2] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+04-Jun-2020 13:39:51.846 INFO [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 13:39:51.862 INFO [http-nio-8080-exec-5] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+04-Jun-2020 13:39:55.924 INFO [http-nio-8080-exec-5] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 13:39:56.502 INFO [http-nio-8080-exec-5] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 13:39:56.518 INFO [http-nio-8080-exec-5] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+04-Jun-2020 13:43:30.173 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+04-Jun-2020 13:43:30.173 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Jun-2020 13:43:30.470 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Jun-2020 13:43:30.486 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: JAX-WS servlet destroyed
+04-Jun-2020 13:43:30.486 INFO [main] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 13:43:30.486 INFO [main] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 13:43:30.486 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+04-Jun-2020 13:43:30.501 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Jun-2020 13:43:30.501 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Jun-2020 15:50:05.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+04-Jun-2020 15:50:05.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+04-Jun-2020 15:50:05.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+04-Jun-2020 15:50:05.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Jun-2020 15:50:05.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Jun-2020 15:50:05.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Jun-2020 15:50:05.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+04-Jun-2020 15:50:05.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+04-Jun-2020 15:50:05.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Jun-2020 15:50:05.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\apache-tomcat-9.0.31
+04-Jun-2020 15:50:05.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\apache-tomcat-9.0.31
+04-Jun-2020 15:50:05.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\apache-tomcat-9.0.31\conf\logging.properties
+04-Jun-2020 15:50:05.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Jun-2020 15:50:05.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-0E1EC67
+04-Jun-2020 15:50:05.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Jun-2020 15:50:05.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Jun-2020 15:50:05.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Jun-2020 15:50:05.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\apache-tomcat-9.0.31
+04-Jun-2020 15:50:05.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\apache-tomcat-9.0.31
+04-Jun-2020 15:50:05.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\apache-tomcat-9.0.31\temp
+04-Jun-2020 15:50:05.115 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ntnhu\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\ntnhu\AppData\Local\Programs\Python\Python38-32\;C:\Users\ntnhu\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\bin;;C:\Program Files\JetBrains\PyCharm 2019.3.3\bin;;.]
+04-Jun-2020 15:50:06.071 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Jun-2020 15:50:06.655 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2,248] milliseconds
+04-Jun-2020 15:50:06.779 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Jun-2020 15:50:06.779 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+04-Jun-2020 15:50:06.819 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\qldt.xml]
+04-Jun-2020 15:50:06.919 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/qldt] in deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\qldt.xml] has been ignored
+04-Jun-2020 15:50:08.687 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 15:50:08.799 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\qldt.xml] has finished in [1,980] ms
+04-Jun-2020 15:50:08.803 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\ROOT.xml]
+04-Jun-2020 15:50:08.831 WARNING [main] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+04-Jun-2020 15:50:08.831 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\ROOT.xml] has been ignored
+04-Jun-2020 15:50:13.432 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 15:50:13.444 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\ROOT.xml] has finished in [4,641] ms
+04-Jun-2020 15:50:13.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\WS.xml]
+04-Jun-2020 15:50:13.492 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WS] in deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\WS.xml] has been ignored
+04-Jun-2020 15:50:20.472 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 15:50:20.528 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+04-Jun-2020 15:50:27.696 INFO [main] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 15:50:28.224 INFO [main] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 15:50:28.240 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+04-Jun-2020 15:50:28.248 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\apache-tomcat-9.0.31\conf\Catalina\localhost\WS.xml] has finished in [14,800] ms
+04-Jun-2020 15:50:28.248 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-9.0.31\webapps\docs]
+04-Jun-2020 15:50:28.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-9.0.31\webapps\docs] has finished in [96] ms
+04-Jun-2020 15:50:28.352 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-9.0.31\webapps\examples]
+04-Jun-2020 15:50:30.816 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-9.0.31\webapps\examples] has finished in [2,464] ms
+04-Jun-2020 15:50:30.816 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-9.0.31\webapps\host-manager]
+04-Jun-2020 15:50:30.941 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-9.0.31\webapps\host-manager] has finished in [125] ms
+04-Jun-2020 15:50:30.941 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-9.0.31\webapps\manager]
+04-Jun-2020 15:50:31.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-9.0.31\webapps\manager] has finished in [125] ms
+04-Jun-2020 15:50:31.082 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Jun-2020 15:50:31.097 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [24,445] milliseconds
+04-Jun-2020 16:01:37.112 INFO [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WS] has started
+04-Jun-2020 16:01:37.112 INFO [http-nio-8080-exec-5] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: JAX-WS servlet destroyed
+04-Jun-2020 16:01:37.127 INFO [http-nio-8080-exec-5] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 16:01:37.127 INFO [http-nio-8080-exec-5] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 16:01:37.127 INFO [http-nio-8080-exec-5] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+04-Jun-2020 16:01:42.786 INFO [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 16:01:42.814 INFO [http-nio-8080-exec-5] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+04-Jun-2020 16:01:48.042 INFO [http-nio-8080-exec-5] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 16:01:48.563 INFO [http-nio-8080-exec-5] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 16:01:48.588 INFO [http-nio-8080-exec-5] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+04-Jun-2020 16:01:48.594 INFO [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WS] is completed
+04-Jun-2020 16:02:33.268 INFO [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WS] has started
+04-Jun-2020 16:02:33.272 INFO [http-nio-8080-exec-6] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: JAX-WS servlet destroyed
+04-Jun-2020 16:02:33.273 INFO [http-nio-8080-exec-6] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 16:02:33.274 INFO [http-nio-8080-exec-6] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 16:02:33.275 INFO [http-nio-8080-exec-6] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+04-Jun-2020 16:02:36.422 INFO [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jun-2020 16:02:36.444 INFO [http-nio-8080-exec-6] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+04-Jun-2020 16:02:43.306 INFO [http-nio-8080-exec-6] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 16:02:44.167 INFO [http-nio-8080-exec-6] com.sun.xml.ws.server.MonitorBase.createRoot Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 16:02:44.194 INFO [http-nio-8080-exec-6] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+04-Jun-2020 16:02:44.201 INFO [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WS] is completed
+04-Jun-2020 16:21:52.800 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+04-Jun-2020 16:21:52.800 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Jun-2020 16:21:53.263 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Jun-2020 16:21:53.279 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: JAX-WS servlet destroyed
+04-Jun-2020 16:21:53.279 INFO [main] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-CalculatorService-CalculatorServicePort
+04-Jun-2020 16:21:53.279 INFO [main] com.sun.xml.ws.server.MonitorBase.closeMOM Closing Metro monitoring root: com.sun.metro:pp=/,type=WSEndpoint,name=/WS-TravelSerivceService-TravelSerivcePort
+04-Jun-2020 16:21:53.279 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+04-Jun-2020 16:21:53.295 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Jun-2020 16:21:53.295 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

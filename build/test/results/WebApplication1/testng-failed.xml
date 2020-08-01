@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WebApplication1]">
+  <test name="service.DiemServiceTest(failed)" junit="true">
+    <classes>
+      <class name="service.DiemServiceTest">
+        <methods>
+          <include name="testTinhTongKet"/>
+        </methods>
+      </class> <!-- service.DiemServiceTest -->
+    </classes>
+  </test> <!-- service.DiemServiceTest(failed) -->
+</suite> <!-- Failed suite [WebApplication1] -->

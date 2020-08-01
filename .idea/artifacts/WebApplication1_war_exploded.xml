@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebApplication1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebApplication1_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebApplication11" />
+          <element id="library" level="project" name="apache-tomcat-9.0" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib1" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.19" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="WebApplication1/web/Web" />
+      <element id="javaee-facet-resources" facet="WebApplication1/web/Web2" />
+    </root>
+  </artifact>
+</component>
